@@ -98,7 +98,7 @@ body{
     font-family: 'Poppins';
     color: white;
     font-size: 13px;
-    padding: .5rem 2.8rem 1.5rem 0;
+    padding: .5rem 4rem 1.5rem 0;
 } 
 
 .btn-grid{
@@ -169,4 +169,130 @@ body{
     font-family: 'Poppins';
     font-size: 13px;
     padding: 2.5rem 0 5rem;
+}
+@media (max-width: 840px){
+    .container a{
+        display: none;
+    }
+}
+@media (max-width: 867px){
+    .big-text-top{
+        font-size: 38px;
+        padding: 0.5rem 0 0 0;
+    }
+    
+    .small-text-top{
+        font-size: 11px;
+        padding: .5rem 4rem 1.5rem 0;
+    }
+}
+@media (max-width: 800px){
+    .top-row{
+        display: block;
+    }
+    
+    .top-col{
+        width: 82%;
+        height: 580px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    .top-col:nth-child(1){
+        top: 600;
+    }
+    .top-col:nth-child(2){
+        position: absolute;
+        top: 100;
+    }
+    .big-text-top{
+        font-size: 40px;
+        padding: 0.5rem 0 0 0;
+    }
+    
+    .small-text-top{
+        font-size: 13px;
+        padding: .5rem 0 1.5rem 0;
+    } 
+    .top-col > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:700px){
+    .top-col{
+        height: 500px;
+    }
+    .top-col:nth-child(1){
+        top: 500;
+    }
+    .big-text-bottom{
+        padding: 5% 10% 0;
+    }
+    .small-text-bottom{
+        width: auto;
+        padding: 0 10%;
+    }
+}
+@media (max-width: 665px){
+    .card{
+        width: 80%;
+    }
+    .bottom-col{
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width: 560px){
+    .top-col{
+        height: 450px;
+    }
+    .top-col:nth-child(1){
+        top: 450;
+    }
+}
+@media (max-width: 500px){
+    .top-col{
+        height: 400px;
+    }
+    .top-col:nth-child(1){
+        top: 400;
+    }
+}
+@media (max-width: 470px){
+    .top-row{
+        padding-bottom: 5rem;
+    }
+    .top-col{
+        height: 350px;
+    }
+    .top-col:nth-child(1){
+        top: 350;
+    }
+}
+@media (max-width: 430px){
+    .top-row{
+        padding-bottom: 12rem;
+    }
+    .top-col{
+        height: 300px;
+    }
+    .top-col:nth-child(1){
+        top: 300;
+    }
+}
+@media (max-width: 330px){
+    .top-row{
+        padding-bottom: 20rem;
+    }
+    .top-col{
+        height: 250px;
+    }
+    .top-col:nth-child(1){
+        top: 250;
+    }
 }
